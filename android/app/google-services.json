@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564078180725",
+    "project_id": "home-shop-027",
+    "storage_bucket": "home-shop-027.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564078180725:android:849b7564cd39b44b43fb3c",
+        "android_client_info": {
+          "package_name": "com.example.homeshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsL0Q6-9Mp_N3x_grH8LAPMpbj05xc4AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
