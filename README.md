@@ -3,7 +3,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.24-blue?logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?logo=firebase)](https://firebase.google.com/)
 [![Razorpay](https://img.shields.io/badge/Payments-Razorpay-blueviolet?logo=razorpay)](https://razorpay.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 A simple Flutter shopping app where users can buy 3 T-shirt designs, pay securely using **Razorpay (test mode)**, and have their transactions stored in **Firebase Firestore**.
 
