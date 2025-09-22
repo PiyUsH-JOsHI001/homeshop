@@ -20,6 +20,10 @@ class _PlaceOrderScreenState extends State<PlaceOrderScreen> {
     _razorpay.on(Razorpay.EVENT_PAYMENT_SUCCESS, _handlePaymentSuccess);
     _razorpay.on(Razorpay.EVENT_PAYMENT_ERROR, _handlePaymentError);
     _razorpay.on(Razorpay.EVENT_EXTERNAL_WALLET, _handleExternalWallet);
+    
+    setState(() {
+      _openCheckout(widget.price);
+    });
   }
 
   @override
@@ -101,13 +105,13 @@ class _PlaceOrderScreenState extends State<PlaceOrderScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Place Order")),
-      body: Center(
-        child: ElevatedButton(
+      // body: Center(
+      //   child: ElevatedButton(
           
-          onPressed: () => _openCheckout(widget.price),
-          child: Text("Pay ₹${widget.price}"),
-        ),
-      ),
+      //     onPressed: () => _openCheckout(widget.price),
+      //     child: Text("Pay ₹${widget.price}"),
+      //   ),
+      // ),
     );
   }
 }
