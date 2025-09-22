@@ -1,16 +1,59 @@
-# homeshop
+# 👕 HomeShop
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-3.24-blue?logo=flutter)](https://flutter.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?logo=firebase)](https://firebase.google.com/)
+[![Razorpay](https://img.shields.io/badge/Payments-Razorpay-blueviolet?logo=razorpay)](https://razorpay.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Getting Started
+A simple Flutter shopping app where users can buy 3 T-shirt designs, pay securely using **Razorpay (test mode)**, and have their transactions stored in **Firebase Firestore**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- 🛒 Choose from 3 T-shirt options
+- 💳 Razorpay Payment Gateway (Test Mode)
+- ☁️ Store transactions securely in Firebase Firestore
+- 📱 Built with Flutter for Android (and iOS-ready)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+lib/
+- main.dart # App entry point
+- home.dart # Home screen with T-shirt options
+- body.dart # Product listing
+- placeorder.dart # Checkout & Razorpay integration
+
+
+---
+
+## ⚙️ Setup & Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/PiyUsH-JOsHI001/homeshop
+   cd homeshop
+
+2. Install dependencies:
+```
+flutter pub get
+```
+
+
+3. Setup Firebase:
+
+ - Create a Firebase project in Firebase Console
+
+ - Enable Firestore Database.
+
+ - Add your google-services.json (Android) or GoogleService-Info.plist (iOS).
+
+4. Setup Razorpay (Test Mode):
+
+ - Sign up at Razorpay Dashboard.
+
+ - Copy your Test Key ID and add it in placeorder.dart.
+
+5. Run the app:
+```
+flutter run
+```
